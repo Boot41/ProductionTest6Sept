@@ -32,6 +32,7 @@ function App() {
           </a>
         </header>
         <Routes>
+          <Route path="/" element={<Home />} />
           <Route path="/employer-dashboard" element={<EmployerDashboard />} />
         </Routes>
       </div>
